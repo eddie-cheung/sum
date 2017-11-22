@@ -1,2 +1,2 @@
 # test
-test
+python使用seleuim操作PhantomJS，操作chrome模拟登录知乎，操作chrome模拟登录新浪微博，操作chrome模拟下拉刷新效果。
