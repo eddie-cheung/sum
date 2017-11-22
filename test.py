@@ -11,8 +11,8 @@ browser.get("https://www.zhihu.com/#signin")
 
 browser.find_element_by_xpath("//div[@class='qrcode-signin-cut-button']/span[@class='signin-switch-password']").click()
 #browser.find_element_by_name("account").send_keys("echochang0@gmail.com")
-browser.find_element_by_xpath("//div[@class='view view-signin']/form[@method='POST']/div[@class='group-inputs']/div[@class='account input-wrapper']/input[@name='account']").send_keys("echochang0@gmail.com")
-browser.find_element_by_xpath("//div[@class='view view-signin']/form[@method='POST']/div[@class='group-inputs']/div[@class='verification input-wrapper']/input[@name='password']").send_keys("Zhangxuhui55")
+browser.find_element_by_xpath("//div[@class='view view-signin']/form[@method='POST']/div[@class='group-inputs']/div[@class='account input-wrapper']/input[@name='account']").send_keys("account")
+browser.find_element_by_xpath("//div[@class='view view-signin']/form[@method='POST']/div[@class='group-inputs']/div[@class='verification input-wrapper']/input[@name='password']").send_keys("password")
 time.sleep(10)
 browser.find_element_by_xpath("//div[@class='view view-signin']/form/div[@class='button-wrapper command']/button[@class='sign-button submit']").click()
 
